@@ -33,5 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation project(":mylibrary")
+//    implementation project(":mylibrary")
+    //JitPack  步骤四：把上个步骤生成的远程依赖库地址添加一下
+    implementation 'com.github.gyqGitHub:JitpackPublishDemo:287544238d'//根据commit Id生成的远程库
 }

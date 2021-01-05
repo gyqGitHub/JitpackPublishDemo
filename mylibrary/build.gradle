@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 //JitPack  步骤二：引入插件
 apply plugin: 'com.github.dcendents.android-maven'
+//JitPack  步骤三：把库提交到远程库后，打开：https://jitpack.io/ 然后复制远程库地址点击Look up 按钮，然后点击get it生成远程依赖库
 
 android {
     compileSdkVersion 29
